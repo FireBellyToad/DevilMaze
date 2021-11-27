@@ -1,0 +1,5 @@
+version "3.3.2"
+
+#include "zscript/DevilMazePlayer/DevilMazePlayer.zc"
+#include "zscript/DevilMazeHUD/DevilMazeHUD.zc"
+#include "zscript/DevilMazeDecorations/DevilMazeSkull.zc"

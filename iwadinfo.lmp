@@ -1,0 +1,10 @@
+IWAD
+{
+	Name = "Devil Maze"
+	BannerColors = "dea840", "003d59"
+	Autoname = "DevilMaze"
+	Game = "Doom"
+	Config = "DevilMaze"
+	IWADName = "DevilMaze.ipk3"
+	Mapinfo = "mapinfo/mindefaults.txt"
+}
