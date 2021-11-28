@@ -6,6 +6,10 @@ All assets except the fonts are licensed under CC-0
 
 For more details, read license.txt and credits.txt
 
+# Run
+
+change test.bat paths as needed. Game template for GZDoom-based by Nash Muhandes is required.
+
 # Credits
 
 

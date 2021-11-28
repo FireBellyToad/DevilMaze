@@ -1,0 +1,1 @@
+ "E:\Game Development\Doom\LZDoom_3.88a_x64\lzdoom.exe" -iwad "E:\Game Development\Doom\custom_wads\MyStandaloneGame.ipk3" -file "E:\Repositories\DevilMaze"
