@@ -5,7 +5,7 @@ class DevilMazeSkull : Actor
 	Default
 	{
 		Radius 16;
-		Height 48;
+		Height 16;
 		ProjectilePassHeight -16;
 		+SOLID
 	}
@@ -14,7 +14,7 @@ class DevilMazeSkull : Actor
 
     //Only one state without flags, is decoration!
 	Spawn:
-		SPRI A -1; //FIXME change sprite name
+		SKUL A -1; //FIXME change sprite name
 		Stop;
 	}
 }
