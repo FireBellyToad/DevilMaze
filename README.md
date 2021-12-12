@@ -19,5 +19,4 @@ Game template for GZDoom-based by Nash Muhandes - https://forum.zdoom.org/viewto
 Skull model by clayguy  - https://www.cgtrader.com/free-3d-print-models/art/sculptures/skull-3
 
 
-DirectionalSpriteBatchRender by Chrono
-- https://github.com/chronicleroflegends/DirectionalSpriteBatchRender
+DirectionalSpriteBatchRender by Chrono - https://github.com/chronicleroflegends/DirectionalSpriteBatchRender

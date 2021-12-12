@@ -1,3 +1,2 @@
-.other/blender/**
-.other/blender/skull.blend
-.other/blender/skull.blend1
+*.blend
+*.blend1
