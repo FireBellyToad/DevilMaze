@@ -14,7 +14,7 @@ class DevilMazeSkull : Actor
     //Only one state without flags, is decoration!
 	Spawn:
 		//Spritename Frame Duration (-1 is infinite)
-		SKUL A -1; //FIXME change sprite name
+		SKUL A -1;
 		Stop;
 	}
 }

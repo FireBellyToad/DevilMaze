@@ -15,8 +15,11 @@ change test.bat paths as needed. Game template for GZDoom-based by Nash Muhandes
 
 Game template for GZDoom-based by Nash Muhandes - https://forum.zdoom.org/viewtopic.php?t=70232
 
-
+    
 Skull model by clayguy  - https://www.cgtrader.com/free-3d-print-models/art/sculptures/skull-3
 
 
 DirectionalSpriteBatchRender by Chrono - https://github.com/chronicleroflegends/DirectionalSpriteBatchRender
+
+
+HOUN sprites by Nmn - https://opengameart.org/content/monster-mutant-for-fps-game

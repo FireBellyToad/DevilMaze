@@ -99,4 +99,5 @@ Map "MAP01" "$TXT_MAP01"
 DoomEdNums
 {
   14166 = DevilMazeSkull
+  14167 = DevilMazeMonster
 }

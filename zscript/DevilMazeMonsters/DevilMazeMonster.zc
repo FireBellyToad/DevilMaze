@@ -1,0 +1,20 @@
+// DevilMazeMonster ------------------------------------------------------------------
+
+class DevilMazeMonster : Actor
+{
+	Default
+	{
+		Radius 16;
+		Height 64;
+		ProjectilePassHeight -16;
+		+SOLID
+	}
+	States
+	{
+    //Only one state without flags, is decoration!
+	Spawn:
+		//Spritename Frame Duration 
+		HOUN ABCD 4;
+		Loop; //must loop
+	}
+}
