@@ -6,6 +6,7 @@ class DevilMazeMonster : Demon
 	Default
 	{
 		Speed 15; //Faster then Doom Pinky
+		AttackSound "hound/attack"; //custom sound on attack
 	}
 
 	//Actor States (Animations mapping and configuration for each of Doom states)
@@ -36,7 +37,7 @@ class DevilMazeMonster : Demon
 			//damage target (3 hits death)
 			int newdam = targ.DamageMobj (self, self, 34, "Melee");
 
-			//Draw blodd on texture?
+			//Draw blood on texture?
 			targ.TraceBleed (newdam, self);
 		}
 	}

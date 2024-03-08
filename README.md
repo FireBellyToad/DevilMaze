@@ -23,3 +23,7 @@ DirectionalSpriteBatchRender by Chrono - https://github.com/chronicleroflegends/
 
 
 HOUN sprites by Nmn - https://opengameart.org/content/monster-mutant-for-fps-game
+
+ROAR by ShangASDFGuy123 - https://freesound.org/people/ShangASDFGuy123/sounds/703626/
+
+BITE by Zott820 - https://freesound.org/people/Zott820/sounds/655706/
