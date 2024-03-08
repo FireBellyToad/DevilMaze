@@ -36,8 +36,8 @@ class DevilMazeMonster : Demon
 			//damage target (3 hits death)
 			int newdam = targ.DamageMobj (self, self, 34, "Melee");
 
-			//???
-			targ.TraceBleed (newdam > 0 ? newdam : damage, self);
+			//Draw blodd on texture?
+			targ.TraceBleed (newdam, self);
 		}
 	}
 }
