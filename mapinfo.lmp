@@ -33,26 +33,11 @@ Episode map01
 
 //-------------------------------------------------------------------------------------------
 //
-//
+//	SKILLS level
 //
 //-------------------------------------------------------------------------------------------
 
-Skill baby
-{
-	AutoUseHealth
-	AmmoFactor = 2
-	DamageFactor = 0.5
-	EasyBossBrain
-	SpawnFilter = Baby
-	Name = "$SKILL_BABY"
-}
-
-Skill easy
-{
-	EasyBossBrain
-	SpawnFilter = Easy
-	Name = "$SKILL_EASY"
-}
+clearskills	//This command overwrites the default Doom skills 
 
 Skill normal
 {
@@ -64,18 +49,8 @@ Skill normal
 Skill hard
 {
 	SpawnFilter = Hard
+	FastMonsters //Hard mode enables Doom "fast monsters" flag
 	Name = "$SKILL_HARD"
-}
-
-Skill nightmare
-{
-	AmmoFactor = 2
-	FastMonsters
-	DisableCheats
-	RespawnTime = 12
-	SpawnFilter = Nightmare
-	Name = "$SKILL_NIGHTMARE"
-	MustConfirm
 }
 
 //-------------------------------------------------------------------------------------------
@@ -92,7 +67,9 @@ Map "MAP01" "$TXT_MAP01"
 
 //-------------------------------------------------------------------------------------------
 //
-//
+//	Custom Content Enums
+//	
+//	This lists all the custom elements that can be placed in a map
 //
 //-------------------------------------------------------------------------------------------
 

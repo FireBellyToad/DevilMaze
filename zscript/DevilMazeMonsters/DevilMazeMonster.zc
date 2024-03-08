@@ -2,6 +2,13 @@
 
 class DevilMazeMonster : Demon
 {	
+	//Actor Default (hitpoints, speeds, abilities, flags ecc ecc)
+	Default
+	{
+		Speed 15; //Faster then Doom Pinky
+	}
+
+	//Actor States (Animations mapping and configuration for each of Doom states)
 	//Sprite name is HOUN
 	States
 	{
@@ -13,23 +20,35 @@ class DevilMazeMonster : Demon
 		Loop;
 	Melee:
 		HOUN EF 8 Fast A_FaceTarget;
-		HOUN G 8 Fast A_SargAttack;
-		Goto See;
-	Pain:
-		HOUN H 2 Fast;
-		HOUN H 2 Fast A_Pain;
-		Goto See;
-	Death:
-		HOUN I 8;
-		HOUN J 8 A_Scream;
-		HOUN K 4;
-		HOUN L 4 A_NoBlocking;
-		HOUN M 4;
-		HOUN N -1;
-		Stop;
-	Raise:
-		HOUN N 5;
-		HOUN MLKJI 5;
+		HOUN G 8 Fast A_HounAttack;
 		Goto See;
 	}
+
+	//Custom attack function
+	void A_HounAttack()
+	{
+		//get target reference
+		let targ = target;
+
+		//check if has target and is within melee range
+		if (targ && CheckMeleeRange())
+		{
+			//damage target (3 hits death)
+			int newdam = targ.DamageMobj (self, self, 34, "Melee");
+
+			//???
+			targ.TraceBleed (newdam > 0 ? newdam : damage, self);
+		}
+	}
+}
+
+
+//===========================================================================
+//
+// Code (must be attached to Demon)
+//
+//===========================================================================
+
+extend class DevilMazeMonster
+{
 }
