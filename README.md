@@ -22,4 +22,4 @@ HOUN sprites by Nmn - https://opengameart.org/content/monster-mutant-for-fps-gam
 
 ROAR by ShangASDFGuy123 - https://freesound.org/people/ShangASDFGuy123/sounds/703626/
 
-Metal041B_1K-JPG_Color by Lennart Demes - ambientCG.com/a/Metal041B
+Metal041C_1K-JPG_Color by Lennart Demes - ambientCG.com/a/Metal041C
