@@ -8,3 +8,7 @@ SKILL_HARD = "Hard";
 TXT_MAP01 = "Den of evil";
 
 TXT_HUD_HEALTH = "Health: ";
+
+GOTDEVILMAZEKEY = "You got a metal key";
+
+PD_KEY_NEEDED = "You need a key to open this door";

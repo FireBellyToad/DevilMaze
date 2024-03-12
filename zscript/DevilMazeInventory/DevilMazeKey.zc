@@ -1,0 +1,16 @@
+// DevilMazeKey ------------------------------------------------------------------
+
+class DevilMazeKey : BlueCard
+{
+	Default
+	{
+		Inventory.Pickupmessage "$GOTDEVILMAZEKEY";
+	}
+	States
+	{
+	Spawn:
+		MKEY A 10;
+		MKEY A 10 bright; // After 10 tics, make it bright!
+		loop;
+	}
+}

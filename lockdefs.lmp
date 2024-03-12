@@ -1,0 +1,15 @@
+//-------------------------------------------------------------------------------------------
+//
+//	Custom Locks and keys
+//
+//-------------------------------------------------------------------------------------------
+
+CLEARLOCKS //Redefine all!
+
+//Lock for metal key
+Lock 1
+{
+	DevilMazeKey //Key Class that will open this lock 
+	Message "$PD_KEY_NEEDED"
+	RemoteMessage "$PD_KEY_NEEDED"
+}
