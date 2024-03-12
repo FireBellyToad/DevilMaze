@@ -25,3 +25,5 @@ ROAR by ShangASDFGuy123 - https://freesound.org/people/ShangASDFGuy123/sounds/70
 Metal041C_1K-JPG_Color by Lennart Demes - ambientCG.com/a/Metal041C
 
 Gold key by JeremyWoods- https://opengameart.org/content/gold-key
+
+MetalWalkway007_1K-JPG_Color - https://ambientcg.com/view?id=MetalWalkway007
