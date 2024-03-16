@@ -7,7 +7,7 @@ maps
 	
 	MAP01
 	{
-		defaultwalltexture = "textures/nash_wall.png";
+		defaultwalltexture = "WALL_CON";
 		overridemiddletexture = false;
 		defaultceiltexture = "F_SKY1";
 		overrideceiltexture = false;
@@ -27,8 +27,8 @@ maps
 				requiredarchives = "";
 			}
 		}
-		viewpositiony = 371.2546f;
-		viewpositionx = -718.2662f;
+		viewpositiony = 396.7926f;
+		viewpositionx = 274.5568f;
 		
 		testprecommand
 		{
@@ -48,11 +48,11 @@ maps
 			gridrotate = 0;
 			backscalex = 100;
 			gridoriginx = 0;
-			gridsize = 64;
+			gridsize = 128;
 			background = "";
 			backoffsety = 0;
 		}
-		viewscale = 1.124547f;
+		viewscale = 0.3937352f;
 		
 		reloadresourceprecommand
 		{
@@ -60,10 +60,10 @@ maps
 			exitcodeiserror = true;
 			stderriserror = true;
 		}
-		defaulttoptexture = "textures/nash_wall.png";
+		defaulttoptexture = "WALL_CON";
 		overridebottomtexture = false;
-		defaultbottomtexture = "textures/nash_wall.png";
-		defaultfloortexture = "flats/nash_floor.png";
+		defaultbottomtexture = "WALL_CON";
+		defaultfloortexture = "FLOOR_CO";
 		overrideceilheight = false;
 		overridebrightness = false;
 		
@@ -104,7 +104,7 @@ maps
 				resource;
 				tabtype = 0;
 				scripttype = 1;
-				caretposition = 140;
+				caretposition = 118;
 				activetab = true;
 			}
 		}

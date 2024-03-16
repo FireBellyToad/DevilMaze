@@ -22,8 +22,10 @@ HOUN sprites by Nmn - https://opengameart.org/content/monster-mutant-for-fps-gam
 
 ROAR by ShangASDFGuy123 - https://freesound.org/people/ShangASDFGuy123/sounds/703626/
 
-Metal041C_1K-JPG_Color by Lennart Demes - ambientCG.com/a/Metal041C
-
 Gold key by JeremyWoods- https://opengameart.org/content/gold-key
 
-MetalWalkway007_1K-JPG_Color - https://ambientcg.com/view?id=MetalWalkway007
+All Wall, Cieling and Floor textures - https://ambientcg.com/view?id=MetalWalkway007
+
+METD by pixabay - https://pixabay.com/sound-effects/large-metal-lift-door-openingwav-14459/
+
+sky1.png by pixabay -https://pixabay.com/photos/cosmos-milky-way-stars-night-sky-1866820/
