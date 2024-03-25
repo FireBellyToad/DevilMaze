@@ -7,7 +7,6 @@ class DevilMazeMonster : Demon
 	{
 		Speed 15; //Faster then Doom Pinky
 		AttackSound "hound/attack"; //custom sound on attack
-		SeeSound "hound/sight";
 		ActiveSound "hound/active";
 	}
 
