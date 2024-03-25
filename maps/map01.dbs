@@ -27,8 +27,8 @@ maps
 				requiredarchives = "";
 			}
 		}
-		viewpositiony = 570.2015f;
-		viewpositionx = 10.35198f;
+		viewpositiony = 211.5896f;
+		viewpositionx = 66.29f;
 		
 		testprecommand
 		{
@@ -48,11 +48,11 @@ maps
 			gridrotate = 0;
 			backscalex = 100;
 			gridoriginx = 0;
-			gridsize = 64;
+			gridsize = 8;
 			background = "";
 			backoffsety = 0;
 		}
-		viewscale = 0.6654111f;
+		viewscale = 7.056348f;
 		
 		reloadresourceprecommand
 		{
@@ -63,7 +63,7 @@ maps
 		defaulttoptexture = "WALL_CON";
 		overridebottomtexture = false;
 		defaultbottomtexture = "WALL_CON";
-		defaultfloortexture = "FLOOR_CO";
+		defaultfloortexture = "BLOOD_GU";
 		overrideceilheight = false;
 		overridebrightness = false;
 		
@@ -104,7 +104,7 @@ maps
 				resource;
 				tabtype = 0;
 				scripttype = 1;
-				caretposition = 118;
+				caretposition = 41;
 				activetab = true;
 			}
 		}

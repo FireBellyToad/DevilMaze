@@ -13,3 +13,11 @@ metalDoor/open "sounds/METD.ogg"
 //-------------------------------------------------------------------------------------------
 
 hound/attack "sounds/hound/ROAR.ogg"
+
+//Randomize active sound
+$random hound/active { hound/active1 hound/active2 hound/active3 }
+hound/active1 "sounds/hound/SEE1.ogg"
+hound/active2 "sounds/hound/SEE2.ogg"
+hound/active3 "sounds/hound/SEE3.ogg"
+
+hound/sight "sounds/hound/WAKE.ogg"

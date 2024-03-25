@@ -20,8 +20,6 @@ DirectionalSpriteBatchRender by Chrono - https://github.com/chronicleroflegends/
 
 HOUN sprites by Nmn - https://opengameart.org/content/monster-mutant-for-fps-game
 
-ROAR by ShangASDFGuy123 - https://freesound.org/people/ShangASDFGuy123/sounds/703626/
-
 Gold key by JeremyWoods- https://opengameart.org/content/gold-key
 
 All Wall, Cieling and Floor textures - https://ambientcg.com/view?id=MetalWalkway007
@@ -29,3 +27,9 @@ All Wall, Cieling and Floor textures - https://ambientcg.com/view?id=MetalWalkwa
 METD by pixabay - https://pixabay.com/sound-effects/large-metal-lift-door-openingwav-14459/
 
 sky1.png by pixabay -https://pixabay.com/photos/cosmos-milky-way-stars-night-sky-1866820/
+
+Monster wail 1 by giddster -- https://freesound.org/s/464959/ -- License: Attribution 4.0
+Monster wail 2 by giddster -- https://freesound.org/s/464958/ -- License: Attribution 4.0
+Monster roar 10 by giddster -- https://freesound.org/s/464943/ -- License: Attribution 4.0
+Monster death throes 1 by giddster -- https://freesound.org/s/464937/ -- License: Attribution 4.0
+Monster wail 5 by giddster -- https://freesound.org/s/464944/ -- License: Attribution 4.0
