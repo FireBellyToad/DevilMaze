@@ -1,7 +1,6 @@
 # include "zcommon.acs" //Always needed!
 
 //SCript for Devilmaze sliding doors
-
 script "OpenPolyDoorScript" (int doorId, int moveAngle, int speed)
 {
 
@@ -15,7 +14,11 @@ script "OpenPolyDoorScript" (int doorId, int moveAngle, int speed)
 	//locked polyobject doors are not possible without ACS
 	Polyobj_DoorSlide(doorId, speed, moveAngle, 150, -1);
 
-
-	// 0 makes the sound play from the Door polyobject
-	PlaySound(0,"metalDoor/open");
+	//If door 2, free the monster
+	if(doorId == 2){
+		PlaySound(0,"hound/sight");
+	} else {
+		// 0 makes the sound play from the Door polyobject
+		PlaySound(0,"metalDoor/open");
+	}
 }

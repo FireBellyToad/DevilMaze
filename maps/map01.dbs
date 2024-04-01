@@ -7,52 +7,45 @@ maps
 	
 	MAP01
 	{
-		defaultwalltexture = "WALL_CON";
-		overridemiddletexture = false;
-		defaultceiltexture = "F_SKY1";
-		overrideceiltexture = false;
-		custombrightness = 196;
-		scriptcompiler = "zdoom_acs.cfg";
 		
 		resources
 		{
-			
-			resource0
-			{
-				type = 1;
-				location = "E:\\Repositories\\DevilMaze";
-				option1 = 0;
-				option2 = 0;
-				notfortesting = 0;
-				requiredarchives = "";
-			}
 		}
-		viewpositiony = 284.8942f;
-		viewpositionx = 251.0851f;
-		
-		testprecommand
-		{
-			autocloseonsuccess = true;
-			exitcodeiserror = true;
-			stderriserror = true;
-		}
-		customceilheight = 128;
+		defaultfloortexture = "FLOOR_CO";
+		defaultceiltexture = "CIELING_";
+		defaulttoptexture = "WALL_CON";
+		defaultwalltexture = "WALL_CON";
+		defaultbottomtexture = "WALL_CON";
+		custombrightness = 196;
 		customfloorheight = 0;
+		customceilheight = 128;
+		overridefloortexture = false;
+		overrideceiltexture = false;
+		overridetoptexture = false;
+		overridemiddletexture = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overrideceilheight = false;
+		overridebrightness = false;
+		uselongtexturenames = false;
+		viewpositionx = 493.8468f;
+		viewpositiony = -496.3138f;
+		viewscale = 0.3937371f;
+		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
 		{
-			backoffsetx = 0;
-			backsource = 0;
-			gridoriginy = 0;
-			backscaley = 100;
-			gridrotate = 0;
-			backscalex = 100;
-			gridoriginx = 0;
-			gridsize = 64;
 			background = "";
+			backsource = 0;
+			backoffsetx = 0;
 			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			gridsize = 128;
+			gridrotate = 0;
+			gridoriginx = 0;
+			gridoriginy = 0;
 		}
-		viewscale = 1.124544f;
 		
 		reloadresourceprecommand
 		{
@@ -60,25 +53,22 @@ maps
 			exitcodeiserror = true;
 			stderriserror = true;
 		}
-		defaulttoptexture = "WALL_CON";
-		overridebottomtexture = false;
-		defaultbottomtexture = "WALL_CON";
-		defaultfloortexture = "FLOOR_CO";
-		overrideceilheight = false;
-		overridebrightness = false;
 		
-		testpostcommand
+		reloadresourcepostcommand
 		{
 			autocloseonsuccess = true;
 			exitcodeiserror = true;
 			stderriserror = true;
 		}
-		overridefloorheight = false;
-		overridetoptexture = false;
-		uselongtexturenames = false;
-		overridefloortexture = false;
 		
-		reloadresourcepostcommand
+		testprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		testpostcommand
 		{
 			autocloseonsuccess = true;
 			exitcodeiserror = true;
@@ -104,6 +94,8 @@ maps
 				resource;
 				tabtype = 0;
 				scripttype = 1;
+				caretposition = 714;
+				firstvisibleline = 1;
 				activetab = true;
 			}
 		}
