@@ -8,6 +8,7 @@ class DevilMazeMonster : Demon
 		Speed 15; //Faster then Doom Pinky
 		AttackSound "hound/attack"; //custom sound on attack
 		ActiveSound "hound/active";
+		Tag "$FN_HOUND";
 	}
 
 	//Actor States (Animations mapping and configuration for each of Doom states)

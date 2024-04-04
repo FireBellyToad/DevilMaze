@@ -6,6 +6,8 @@
 
 metalDoor/open "sounds/METD.ogg"
 
+ambient/tense "sounds/TENS.ogg"
+
 //-------------------------------------------------------------------------------------------
 //
 //	Hound custom sounds

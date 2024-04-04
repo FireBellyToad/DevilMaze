@@ -12,7 +12,7 @@ script "OpenPolyDoorScript" (int doorId, int moveAngle, int speed)
 	//This slides the Door slowly to the left
 	//This is done here instead of making it on a Linedef because
 	//locked polyobject doors are not possible without ACS
-	Polyobj_DoorSlide(doorId, speed, moveAngle, 150, -1);
+	Polyobj_DoorSlide(doorId, speed, moveAngle, 110, -1);
 
 	//If door 2, free the monster
 	if(doorId == 2){
@@ -21,4 +21,10 @@ script "OpenPolyDoorScript" (int doorId, int moveAngle, int speed)
 		// 0 makes the sound play from the Door polyobject
 		PlaySound(0,"metalDoor/open");
 	}
+}
+
+// Script to get the Demon to move in background
+script "ScaryScene" (void){
+	Thing_SetGoal(1,2,0,1);
+	PlaySound(0,"ambient/tense");
 }

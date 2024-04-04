@@ -39,18 +39,13 @@ Episode map01
 
 clearskills	//This command overwrites the default Doom skills 
 
+// Only one skill for this game
 Skill normal
 {
 	SpawnFilter = Normal
+	FastMonsters
 	Name = "$SKILL_NORMAL"
 	DefaultSkill
-}
-
-Skill hard
-{
-	SpawnFilter = Hard
-	FastMonsters //Hard mode enables Doom "fast monsters" flag
-	Name = "$SKILL_HARD"
 }
 
 //-------------------------------------------------------------------------------------------

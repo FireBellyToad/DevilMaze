@@ -12,3 +12,5 @@ TXT_HUD_HEALTH = "Health: ";
 GOTDEVILMAZEKEY = "You got a metal key";
 
 PD_KEY_NEEDED = "You need a key to open this door";
+
+FH_HOUND = "Devil";
