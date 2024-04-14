@@ -1,0 +1,18 @@
+// DevilMazeCandle ------------------------------------------------------------------
+
+class DevilMazeCandle : Actor
+{
+	Default
+	{
+		Radius 16;
+		Height 8;
+	}
+	States
+	{
+    //Only one state without flags, is decoration!
+	Spawn:
+		//Spritename Frame Duration (-1 is infinite)
+		CAND A -1;
+		Stop;
+	}
+}
