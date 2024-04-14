@@ -1,11 +1,15 @@
 // DevilMazeMonster ------------------------------------------------------------------
 
-class DevilMazeMonster : Demon
+class DevilMazeMonster : Actor
 {	
 	//Actor Default (hitpoints, speeds, abilities, flags ecc ecc)
 	Default
 	{
-		Speed 15; //Faster then Doom Pinky
+		health 180;
+		radius 20;
+		height 80;
+		mass 100;
+		speed 15; 
 		AttackSound "hound/attack"; //custom sound on attack
 		ActiveSound "hound/active";
 		Tag "$FN_HOUND";
@@ -16,14 +20,14 @@ class DevilMazeMonster : Demon
 	States
 	{
 	Spawn:
-		HOUN AB 10 A_Look;
+		LMWZ E 10 A_Look;
 		Loop;
 	See:
-		HOUN ABCD 2 Fast A_Chase;
+		LMWZ EEFFEEFF 2 Fast A_Chase;
 		Loop;
 	Melee:
-		HOUN EF 8 Fast A_FaceTarget;
-		HOUN G 8 Fast A_HounAttack;
+		LMWZ EFG 8 Fast A_FaceTarget;
+		LMWZ H 8 Fast A_HounAttack;
 		Goto See;
 	}
 
