@@ -14,12 +14,12 @@ ambient/tense "sounds/TENS.ogg"
 //
 //-------------------------------------------------------------------------------------------
 
-hound/attack "sounds/hound/ROAR.ogg"
+devil/attack "sounds/devil/ROAR.ogg"
 
 //Randomize active sound
-$random hound/active { hound/active1 hound/active2 hound/active3 }
-hound/active1 "sounds/hound/SEE1.ogg"
-hound/active2 "sounds/hound/SEE2.ogg"
-hound/active3 "sounds/hound/SEE3.ogg"
+$random devil/active { devil/active1 devil/active2 devil/active3 }
+devil/active1 "sounds/devil/SEE1.ogg"
+devil/active2 "sounds/devil/SEE2.ogg"
+devil/active3 "sounds/devil/SEE3.ogg"
 
-hound/sight "sounds/hound/WAKE.ogg"
+devil/sight "sounds/devil/WAKE.ogg"

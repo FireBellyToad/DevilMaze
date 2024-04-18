@@ -1,6 +1,6 @@
 // DevilMazeMonster ------------------------------------------------------------------
 
-class DevilMazeMonster : Actor
+class DevilMazeMonster : Demon
 {	
 	//Actor Default (hitpoints, speeds, abilities, flags ecc ecc)
 	Default
@@ -9,9 +9,9 @@ class DevilMazeMonster : Actor
 		radius 20;
 		height 80;
 		mass 100;
-		speed 15; 
-		AttackSound "hound/attack"; //custom sound on attack
-		ActiveSound "hound/active";
+		speed 20; 
+		AttackSound "devil/attack"; //custom sound on attack
+		ActiveSound "devil/active";
 		Tag "$FN_HOUND";
 	}
 

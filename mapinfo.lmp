@@ -43,7 +43,6 @@ clearskills	//This command overwrites the default Doom skills
 Skill normal
 {
 	SpawnFilter = Normal
-	FastMonsters
 	Name = "$SKILL_NORMAL"
 	DefaultSkill
 }
