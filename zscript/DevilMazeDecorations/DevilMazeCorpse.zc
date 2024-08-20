@@ -1,0 +1,22 @@
+// DevilMazeCorpse ------------------------------------------------------------------
+
+class DevilMazeCorpse : Actor
+{
+	Default
+	{
+		Radius 16;
+		Height 8;
+	}
+	States
+	{
+    //Only one state without flags, is decoration!
+	Spawn:
+		//Play "ambient/flies" on channel 4 (default) at volume 1.0 (default). Must loop
+		CRP1 ABCD 3 A_PlaySound("ambient/flies",4,1.0,true);
+		//After that, use idle to keep both the sound and the animation looping 
+		Goto Idle;
+	Idle:
+		CRP1 ABCD 3;
+		Loop;
+	}
+}

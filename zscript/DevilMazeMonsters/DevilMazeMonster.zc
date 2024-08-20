@@ -12,11 +12,10 @@ class DevilMazeMonster : Demon
 		speed 20; 
 		AttackSound "devil/attack"; //custom sound on attack
 		ActiveSound "devil/active";
-		Tag "$FN_HOUND";
 	}
 
 	//Actor States (Animations mapping and configuration for each of Doom states)
-	//Sprite name is HOUN
+	//Sprite name is LMWZ
 	States
 	{
 	Spawn:
@@ -27,12 +26,12 @@ class DevilMazeMonster : Demon
 		Loop;
 	Melee:
 		LMWZ EFG 8 Fast A_FaceTarget;
-		LMWZ H 8 Fast A_HounAttack;
+		LMWZ H 8 Fast A_DevilAttack;
 		Goto See;
 	}
 
 	//Custom attack function
-	void A_HounAttack()
+	void A_DevilAttack()
 	{
 		//get target reference
 		let targ = target;

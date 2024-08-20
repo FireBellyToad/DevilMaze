@@ -7,6 +7,7 @@
 metalDoor/open "sounds/METD.ogg"
 
 ambient/tense "sounds/TENS.ogg"
+ambient/flies "sounds/FLIES.ogg"
 
 //-------------------------------------------------------------------------------------------
 //
